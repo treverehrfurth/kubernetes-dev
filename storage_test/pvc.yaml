@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: nfs-retain
+  storageClassName: nfs
   resources:
     requests:
       storage: 20Gi
